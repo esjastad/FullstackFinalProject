@@ -1,0 +1,46 @@
+@media (max-width: 768px) {
+	#aboutCard {
+		width: 80%;
+		margin: 20px 5px;
+		padding-bottom: 10px;
+		border: 4px solid black;
+	}
+}
+
+@media (min-width: 768px) {
+	#aboutCard {
+		width: 40%;
+		margin: 20px 5px;
+		padding-bottom: 10px;
+		border: 4px solid black;
+	}
+}
+
+@media (min-width: 1024px) {
+	#aboutCard {
+		width: 20%;
+		margin: 20px 5px;
+		padding-bottom: 10px;
+		border: 4px solid black;
+	}
+}
+
+#aboutContainer {
+	width: 100%;
+	flex-wrap: wrap;
+}
+
+#aboutCard:hover {
+	border: 4px solid red;
+	opacity: 0.8;
+}
+
+#aboutH1 {
+	width: 80%;
+	padding: 25px 0px;
+	margin: 20px 0px;
+	border: 4px solid black;
+	border-radius: 5px;
+	justify-content: center;
+	text-align: center;
+}
